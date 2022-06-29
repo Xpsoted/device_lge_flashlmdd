@@ -26,7 +26,7 @@ BOARD_KERNEL_CMDLINE += androidboot.hardware=flashlmdd
 TARGET_RECOVERY_WIPE := $(DEVICE_PATH)/recovery/recovery.wipe
 
 # Security Patch Level
-VENDOR_SECURITY_PATCH := 2021-08-01
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # inherit from the proprietary version
 -include vendor/lge/flashlmdd/BoardConfigVendor.mk
