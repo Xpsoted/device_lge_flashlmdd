@@ -26,8 +26,9 @@ $(call inherit-product, device/lge/flashlmdd/device.mk)
 # Inherit some common Corvus stuff.
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
-# Device identifiers
+TARGET_INCLUDE_PIXEL_CHARGER := true
 
+# Device identifiers
 PRODUCT_NAME := corvus_flashlmdd
 PRODUCT_DEVICE := flashlmdd
 PRODUCT_BRAND := lge
