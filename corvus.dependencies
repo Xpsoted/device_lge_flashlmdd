@@ -1,8 +1,6 @@
 [
   {
-    "repository" : "CorvusRom-Devices/device_lge_flash-common",
+    "repository" : "device_lge_flash-common",
     "target_path": "device/lge/flash-common",
-    "branch"     : "12.1",
-    "remote"     : "github"
   }
 ]
