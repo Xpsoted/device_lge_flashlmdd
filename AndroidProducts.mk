@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/corvus_flashlmdd.mk
+    $(LOCAL_DIR)/aosp_flashlmdd.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_flashlmdd-user \
-    corvus_flashlmdd-userdebug \
-    corvus_flashlmdd-eng
+    aosp_flashlmdd-user \
+    aosp_flashlmdd-userdebug \
+    aosp_flashlmdd-eng
